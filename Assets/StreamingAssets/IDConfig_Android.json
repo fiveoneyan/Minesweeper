@@ -1,0 +1,25 @@
+{
+    "toggle":[
+        { "name": "AppsFlyerAdvanced", "on":  false }
+    ],
+    "kv":[
+        { "key": "PackageName", "value": "com.blockrolling.harefree" }
+        ,{ "key": "IronSourceAppKey", "value":  "9c22bc25" }
+        ,{ "key": "AdMobAppId", "value":  "ca-app-pub-6084935777285871~2242448011" }
+        ,{ "key": "GameTime", "value":  "Turncans_Gametime" }
+        ,{ "key": "HighScore", "value":  "Turncans_Level" }
+        ,{ "key": "AppUrl", "value":  "https://google.com" }
+        ,{ "key": "AppsFlyerKey", "value":  "9fyVgpSXFKkx84NkNFbYsD" }
+    ],
+
+    "iap":[
+        {
+            "Key": "remove_ads"
+            ,"ID": "Turncans.Noads"
+            ,"Name": "No Ads"
+            ,"Type": "NonConsumable"
+            ,"Price": 2.99
+            ,"Currency": "USD"
+        }
+    ]
+}

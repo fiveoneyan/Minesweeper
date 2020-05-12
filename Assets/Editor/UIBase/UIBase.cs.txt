@@ -1,0 +1,35 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class #SCRIPTNAME# : UIBase
+ {
+ 
+    #region LifeTime
+     public override void OnEnter()
+    {
+        base.OnEnter();
+    }
+
+    public override void OnResume()
+    {
+        base.OnResume();
+    }
+
+    public override void OnPause()
+    {
+       base.OnPause();
+    }
+
+    public override void OnExit()
+    {
+       base.OnExit();
+    }
+    #endregion
+
+    void Init(params object[] param)
+    {
+      
+    }
+}

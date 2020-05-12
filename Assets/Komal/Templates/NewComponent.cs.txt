@@ -1,0 +1,29 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using komal;
+using komal.puremvc;
+using komal.sdk;
+
+public class NewComponent: ComponentEx, INotificationHandler
+{
+    void Start(){
+
+    }
+
+    public override string[] ListNotificationInterests()
+    {
+        return new string[] {
+            
+        };
+    }
+
+    public override void HandleNotification(INotification notification)
+    {
+        switch (notification.name)
+        {
+            case "":
+                break;
+        }
+    }
+}
